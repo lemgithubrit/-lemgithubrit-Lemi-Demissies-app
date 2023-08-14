@@ -71,6 +71,4 @@ st.write("Youtube:-https://www.youtube.com/channel/UCfuVnlEHBvqCMb67HecaNbw")
 st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
 
 
-st.write("lemi")
-st.write("lemi")
-st.write("lemi")
+
