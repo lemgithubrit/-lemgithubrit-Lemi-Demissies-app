@@ -44,6 +44,34 @@ df = load_data()
 df
 
 
+
+
+
+import pandas as pd
+import streamlit as st
+@st.cache_data
+def load_data():
+    return pd.DataFrame(
+        {
+            "Cereal Crop": ['Teff', 'Corn', 'Wheat', 'Sorghum', 'Barley'],
+            "Area Coverage (1000ha) in 2021/22 MY": ['2983', '2530', '1960', '1650', '960'],
+        }
+    )
+st.checkbox("Use container width", value=False, key="use_container_width")
+df = load_data()
+df
+
+
+
+
+
+
+
+
+
+
+
+
 #sidebar   
 date = st.sidebar.date_input("Date")
 text=st.sidebar.text_area("Write Comment Here")
@@ -72,4 +100,4 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 
-st.write("lemi")
+
