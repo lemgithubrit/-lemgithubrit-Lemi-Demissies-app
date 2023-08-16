@@ -148,8 +148,8 @@ st.image(
 
 import streamlit as st
 
-captions = list(range(50,50,50))
-blob_items = [f"https://dummyimage.com/400x{w}/d4c9d4/3740bd.jpg&text=IMG_{w}" for w in captions]
+captions = list(range(300,1200,500))
+blob_items = [f"https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg]
 
 for blob in blob_items:
     c1,mid,c2 = st.columns([2,1,3])
