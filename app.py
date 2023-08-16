@@ -117,3 +117,9 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
  
+import streamlit as st
+from PIL import Image
+
+image = Image.open('sunrise.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
