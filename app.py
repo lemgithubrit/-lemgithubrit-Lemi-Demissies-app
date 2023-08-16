@@ -109,7 +109,7 @@ st.sidebar.text_input('Phone No')
 
 #IMAGE
 st.image(
-            "https://www.ulprospector.com/knowledge/media/2017/06/FBN-teff-shutterstock_363682979-OG.jpg",
+            "https://www.shutterstock.com/image-photo/ancient-grain-teff-popular-eritrean-260nw-1933966757.jpg",
             width=850, 
         )
 
