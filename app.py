@@ -66,6 +66,19 @@ df = load_data()
 df
 
 
+#barChart
+import streamlit as st
+import pandas as pd
+
+data = pd.DataFrame({
+    'index': ['Cincinnati', 'San Francisco', 'Pittsburgh'],
+    'sports_teams': [6, 8, 9],
+}).set_index('index')
+
+st.bar_chart(data)
+
+
+
 #sidebar   
 date = st.sidebar.date_input("Date")
 text=st.sidebar.text_area("Write Comment Here")
@@ -93,12 +106,4 @@ st.write("Youtube:-https://www.youtube.com/channel/UCfuVnlEHBvqCMb67HecaNbw")
 st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
 
 
-import streamlit as st
-import pandas as pd
 
-data = pd.DataFrame({
-    'index': ['Cincinnati', 'San Francisco', 'Pittsburgh'],
-    'sports_teams': [6, 8, 9],
-}).set_index('index')
-
-st.bar_chart(data)
