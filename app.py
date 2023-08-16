@@ -35,7 +35,7 @@ df = pd.DataFrame({'Local Name': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'Boni', '
                    'Releasing Center': ['DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC'],
                    'Year of Release': ['2,928,206.26', '1,393,455.62', '1,086,374.60', '188,391.88', '234,350.83', '22,021.32', '234,350.83', '22,021.32'],
                    'Days to Mature': ['2,928,206.26', '1,393,455.62', '1,086,374.60', '188,391.88', '234,350.83', '22,021.32', '234,350.83', '22,021.32'],
-                   'Seed Color': ['55,099,615.14', '26,904,670.12', '20,964,629.06', '3,117,538.77', '3,744,279.61', '334,445.20', '3,744,279.61', '334,445.20'],
+                   'Seed Color': ['Very White', 'Very White', 'Very White', 'Very White', 'Very White', 'Very White', 'Very White', 'Brown'],
                    'Yield t/ha': ['1.88', '1.93', '1.93', '1.66', '1.60', '1.60', '1.60', '1.60']})
   
 df
