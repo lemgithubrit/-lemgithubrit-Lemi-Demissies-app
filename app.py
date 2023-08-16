@@ -119,7 +119,6 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
  
 st.image(
             "https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg",
-            "https://i.ytimg.com/vi/eXQcpu2eCrE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCzcOFcZK_t26Bz3oVIeicMvjrBKQ",
             width=200, 
         )
 
