@@ -35,7 +35,7 @@ df = pd.DataFrame({'Teff Yield in 2020/21': ['National', 'Oromia', 'Amhara', 'Ti
                    'No. of small holder farmers': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
                    'Area (ha)': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
                    'Production (qt)': ['A', 'A', 'C', 'B', 'C', 'B'],
-                   'Yield t/ha': ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Physics']})
+                   'Yield t/ha': ['1.88', '1.93', '1.93', '1.66', '1.60', '1.60']})
   
 # Printing the dataframe
 df
