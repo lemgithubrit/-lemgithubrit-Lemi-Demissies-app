@@ -28,6 +28,15 @@ option = st.selectbox(
     '1',
     ('What is teff?','A) Smallest Size Cereal Grain in the World','B) Originated from Ethiopia','C) Ethiopia grew more than 90 percent of the world','D) Gluten Free','E) Highly Nitritious','F) Super Food','G) Replace Wheat Products'))
 
+#ADD TABLE
+import pandas as pd
+df = pd.DataFrame({'Roll Number': ['20CSE29', '20CSE49', '20CSE36', '20CSE44'],
+                   'Name': ['Amelia', 'Sam', 'Dean', 'Jessica'],
+                   'Marks In Percentage': [97, 90, 70, 82],
+                   'Grade': ['A', 'A', 'C', 'B'],
+                   'Gra': ['F', 'A', 'k', 'B'],
+                   'Subject': ['Physics', 'Physics', 'Physics', 'Physics']})
+df
 
 #ADD TABLE
 import pandas as pd
@@ -73,11 +82,3 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 
-import pandas as pd
-df = pd.DataFrame({'Roll Number': ['20CSE29', '20CSE49', '20CSE36', '20CSE44'],
-                   'Name': ['Amelia', 'Sam', 'Dean', 'Jessica'],
-                   'Marks In Percentage': [97, 90, 70, 82],
-                   'Grade': ['A', 'A', 'C', 'B'],
-                   'Gra': ['F', 'A', 'k', 'B'],
-                   'Subject': ['Physics', 'Physics', 'Physics', 'Physics']})
-df
