@@ -29,32 +29,6 @@ option = st.selectbox(
     ('What is teff?','A) Smallest Size Cereal Grain in the World','B) Originated from Ethiopia','C) Ethiopia grew more than 90 percent of the world','D) Gluten Free','E) Highly Nitritious','F) Super Food','G) Replace Wheat Products'))
 
 
-
-
-
-df = pd.DataFrame(
-    [
-        {"command": "st.selectbox", "rating": 4, "is_widget": True},
-        {"command": "st.balloons", "rating": 5, "is_widget": False},
-        {"command": "st.time_input", "rating": 3, "is_widget": True},
-    ]
-)
-
-df = load_data()
-edited_df = st.data_editor(df) 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #ADD TABLE
 import pandas as pd
 import streamlit as st
