@@ -110,7 +110,7 @@ color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
 st.sidebar.write('The current color is', color)
 
 st.image(
-            "https://landportal.org/sites/landportal.org/files/logolast.png",
+            "https://tefffarms.com/wp-content/uploads/2022/04/selam-foods_what-is-teff_green-bg.jpg",
             width=1200, 
         )
 
