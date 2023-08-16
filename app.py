@@ -129,13 +129,7 @@ st.image(
         )
 
 
- c1,mid,c2 = st.beta_columns([2,1,3])
-  for blob in blob_items:
-  blob_client = container_client.get_blob_client(blob=blob.name)
-  c1.image(blob_client.https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg)
-  title = c2.text_input('Comments',key =blob_client.https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg )
-  if c2.button('Save Me', key=blob_client.https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg):
-      c2.write(title)
+
 
 
 
