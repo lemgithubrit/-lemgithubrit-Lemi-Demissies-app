@@ -28,6 +28,11 @@ option = st.selectbox(
     '1',
     ('What is teff?','A) Smallest Size Cereal Grain in the World','B) Originated from Ethiopia','C) Ethiopia grew more than 90 percent of the world','D) Gluten Free','E) Highly Nitritious','F) Super Food','G) Replace Wheat Products'))
 
+#IMAGE
+st.image(
+            "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
+            width=1200, 
+        )
 
 #ADD TABLE
 import pandas as pd 
@@ -107,11 +112,7 @@ st.sidebar.text_input('Full Name')
 st.sidebar.text_input('Email address')
 st.sidebar.text_input('Phone No')
 
-#IMAGE
-st.image(
-            "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
-            width=1200, 
-        )
+
 
 color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
 st.sidebar.write('The current color is', color)
