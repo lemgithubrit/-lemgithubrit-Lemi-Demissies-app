@@ -33,7 +33,7 @@ import pandas as pd
 df = pd.DataFrame({'Local Name': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'Boni', 'Quncho', 'Dagim', 'Felagot'],
                    'Varieties': ['DZ-Cr-497 RIL133', 'DZ-Cr-453 RIL120B', 'DZ-Cr-409', 'DZ-cr-438 RIL133B', 'DZ-Cr-498 (RIL 37)', 'DZ-cr-387 RIL 355', 'DZ-Cr-438 RIL91A', 'DZ-Cr-442 RIL77C'],
                    'Releasing Center': ['DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC'],
-                   'Year of Release': ['2,928,206.26', '1,393,455.62', '1,086,374.60', '188,391.88', '234,350.83', '22,021.32', '234,350.83', '22,021.32'],
+                   'Year of Release': ['2020', '2019', '2012', '2014', '234,350.83', '22,021.32', '234,350.83', '22,021.32'],
                    'Days to Mature': ['2,928,206.26', '1,393,455.62', '1,086,374.60', '188,391.88', '234,350.83', '22,021.32', '234,350.83', '22,021.32'],
                    'Seed Color': ['Very White', 'Very White', 'Very White', 'Very White', 'Very White', 'Very White', 'Very White', 'Brown'],
                    'Yield t/ha': ['1.88', '1.93', '1.93', '1.66', '1.60', '1.60', '1.60', '1.60']})
