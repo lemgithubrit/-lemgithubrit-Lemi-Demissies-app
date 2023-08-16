@@ -32,7 +32,7 @@ option = st.selectbox(
 import pandas as pd 
 df = pd.DataFrame({'Local Name': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'Boni', 'Quncho', 'Dagim', 'Felagot'],
                    'Varieties': ['DZ-Cr-497 RIL133', 'DZ-Cr-453 RIL120B', 'DZ-Cr-409', 'DZ-cr-438 RIL133B', 'DZ-Cr-498 (RIL 37)', 'DZ-cr-387 RIL 355', 'DZ-Cr-438 RIL91A', 'DZ-Cr-442 RIL77C'],
-                   'Releasing Center': ['DebreZeit Agaricultural Reasearch Center', 'DebreZeit Agaricultural Reasearch Center', 'DebreZeit Agaricultural Reasearch Center', 'DebreZeit Agaricultural Reasearch Center', 'DebreZeit Agaricultural Reasearch Center', 'DebreZeit Agaricultural Reasearch Center', 'DebreZeit Agaricultural Reasearch Center'],
+                   'Releasing Center': ['DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC', 'DZARC'],
                    'Year of Release': ['2,928,206.26', '1,393,455.62', '1,086,374.60', '188,391.88', '234,350.83', '22,021.32', '234,350.83', '22,021.32'],
                    'Days to Mature': ['2,928,206.26', '1,393,455.62', '1,086,374.60', '188,391.88', '234,350.83', '22,021.32', '234,350.83', '22,021.32'],
                    'Seed Color': ['55,099,615.14', '26,904,670.12', '20,964,629.06', '3,117,538.77', '3,744,279.61', '334,445.20', '3,744,279.61', '334,445.20'],
