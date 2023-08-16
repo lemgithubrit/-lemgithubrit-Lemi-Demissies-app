@@ -142,29 +142,7 @@ st.image(
 
 
 
-import pandas as pd
-import streamlit as st
 
-data_df = pd.DataFrame(
-    {
-        "apps": [
-            "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSeOIXhsmOW4pEB3gxFCtLHklulOSXhZM5LZPwkHGnrZbsG7-gRsL67CT7ifeWMJA0WHP94DgIxfxHv40Nc08_Wr98M8ATpl57qt54mFBQ",
-            "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/ef9a7627-13f2-47e5-8f65-3f69bb38a5c2/Home_Page.png",
-            "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/31b99099-8eae-4ff8-aa89-042895ed3843/Home_Page.png",
-            "https://storage.googleapis.com/s4a-prod-share-preview/default/st_app_screenshot_image/6a399b09-241e-4ae7-a31f-7640dc1d181e/Home_Page.png",
-        ],
-    }
-)
-
-st.data_editor(
-    data_df,
-    column_config={
-        "apps": st.column_config.ImageColumn(
-            "Preview Image", help="Streamlit app preview screenshots"
-        )
-    },
-    hide_index=True,
-)
 
 
 
