@@ -109,7 +109,7 @@ st.sidebar.text_input('Phone No')
 
 #IMAGE
 st.image(
-            "https://www.shutterstock.com/image-photo/ancient-grain-teff-popular-eritrean-260nw-1933966757.jpg",
+            "https://t4.ftcdn.net/jpg/04/19/67/09/360_F_419670986_RrJnfBrOF8GEOiHVlTAuHcADq5SwOsvf.jpg",
             width=1200, 
         )
 
