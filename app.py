@@ -33,7 +33,7 @@ import pandas as pd
 # Creating the dataframe df
 df = pd.DataFrame({'Roll Number': ['20CSE29', '20CSE49', '20CSE36', '20CSE44', '20CSE36', '20CSE44'],
                    'Name': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
-                   'Marks In Percentage': [97, 90, 70, 82, 70, 82],
+                   'Marks In Percentage': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
                    'Grade': ['A', 'A', 'C', 'B', 'C', 'B'],
                    'Subject': ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Physics']})
   
