@@ -30,7 +30,7 @@ option = st.selectbox(
 
 #IMAGE
 st.image(
-            "https://tefffarms.com/wp-content/uploads/2022/04/selam-foods_what-is-teff_green-bg.jpg",
+            "https://www.thespruceeats.com/thmb/KsnrnCEN7tSRaTKcdbIfDI05H24=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/tefft-landscape_annotated-cb322f561d8c4616a8c1b3540fbe5438.jpg",
             width=850, 
         )
 
