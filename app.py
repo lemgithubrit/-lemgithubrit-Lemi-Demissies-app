@@ -109,6 +109,13 @@ st.sidebar.text_input('Phone No')
 color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
 st.sidebar.write('The current color is', color)
 
+st.image(
+            "https://landportal.org/sites/landportal.org/files/logolast.png",
+            width=1200, 
+        )
+
+
+
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
 st.write("Phone:-+251921502282") 
 st.write("Email:-   lemidemissieboset@gmail.com") 
