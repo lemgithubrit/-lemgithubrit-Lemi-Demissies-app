@@ -148,7 +148,7 @@ st.image(
 
 import streamlit as st
 
-captions = list(range(300,1200,100))
+captions = list(range(50,50,50))
 blob_items = [f"https://dummyimage.com/400x{w}/d4c9d4/3740bd.jpg&text=IMG_{w}" for w in captions]
 
 for blob in blob_items:
