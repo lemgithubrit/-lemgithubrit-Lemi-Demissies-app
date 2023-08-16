@@ -31,7 +31,7 @@ option = st.selectbox(
 #ADD TABLE
 import pandas as pd 
 # Creating the dataframe df
-df = pd.DataFrame({'Teff Yield in 2020/21': ['20CSE29', '20CSE49', '20CSE36', '20CSE44', '20CSE36', '20CSE44'],
+df = pd.DataFrame({'Teff Yield in 2020/21': ['National', 'Oromia', 'Amhara', 'Tigay', 'SNNP', 'Benishagul Gumuz'],
                    'No. of small holder farmers': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
                    'Area (ha)': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
                    'Production (qt)': ['A', 'A', 'C', 'B', 'C', 'B'],
