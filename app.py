@@ -119,7 +119,7 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
  
 
 st.image(
-            "https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg",
+            "https://landportal.org/sites/landportal.org/files/logolast.png",
             width=400, 
         )
 
