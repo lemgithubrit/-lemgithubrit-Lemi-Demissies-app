@@ -101,5 +101,4 @@ data = pd.DataFrame({
     'sports_teams': [6, 8, 9],
 }).set_index('index')
 
-st.write(data)
 st.bar_chart(data)
