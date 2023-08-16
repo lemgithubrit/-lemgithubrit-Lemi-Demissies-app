@@ -110,7 +110,7 @@ st.sidebar.text_input('Phone No')
 #IMAGE
 st.image(
             "https://www.shutterstock.com/image-photo/ancient-grain-teff-popular-eritrean-260nw-1933966757.jpg",
-            width=850, 
+            width=1200, 
         )
 
 color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
