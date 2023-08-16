@@ -111,7 +111,7 @@ st.sidebar.write('The current color is', color)
 
 st.image(
             "https://tefffarms.com/wp-content/uploads/2022/04/selam-foods_what-is-teff_green-bg.jpg",
-            width=1200, 
+            width=800, 
         )
 
 
