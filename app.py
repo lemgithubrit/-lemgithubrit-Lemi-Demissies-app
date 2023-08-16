@@ -109,7 +109,7 @@ st.sidebar.text_input('Phone No')
 
 #IMAGE
 st.image(
-            "https://www.thespruceeats.com/thmb/KsnrnCEN7tSRaTKcdbIfDI05H24=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/tefft-landscape_annotated-cb322f561d8c4616a8c1b3540fbe5438.jpg",
+            "https://www.ulprospector.com/knowledge/media/2017/06/FBN-teff-shutterstock_363682979-OG.jpg",
             width=850, 
         )
 
