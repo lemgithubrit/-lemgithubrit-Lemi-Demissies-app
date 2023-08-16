@@ -71,9 +71,9 @@ import streamlit as st
 import pandas as pd
 
 data = pd.DataFrame({
-    'index': ['Cincinnati', 'San Francisco', 'Pittsburgh'],
+    'Creal Crop': ['Cincinnati', 'San Francisco', 'Pittsburgh'],
     'Area Coverage (1000ha) in 2021/22 MY vs Cereal Crop': [6, 8, 9],
-}).set_index('index')
+}).set_Creal Crop('Cereal Crop')
 
 st.bar_chart(data)
 
