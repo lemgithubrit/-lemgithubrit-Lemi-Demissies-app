@@ -34,7 +34,7 @@ import pandas as pd
 df = pd.DataFrame({'Teff Yield in 2020/21': ['National', 'Oromia', 'Amhara', 'Tigay', 'SNNP', 'Benishagul Gumuz'],
                    'No. of small holder farmers': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
                    'Area (ha)': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
-                   'Production (qt)': ['A', 'A', 'C', 'B', 'C', 'B'],
+                   'Production (qt)': ['55,099,615.14', '26,904,670.12', '20,964,629.06', '3,117,538.77', '3,744,279.61', '334,445.20'],
                    'Yield t/ha': ['1.88', '1.93', '1.93', '1.66', '1.60', '1.60']})
   
 # Printing the dataframe
