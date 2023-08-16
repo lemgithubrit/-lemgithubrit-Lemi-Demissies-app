@@ -30,7 +30,7 @@ option = st.selectbox(
 
 #ADD TABLE
 import pandas as pd 
-df = pd.DataFrame({'Local Name': ['National', 'Oromia', 'Amhara', 'Tigay', 'SNNP', 'Benishagul Gumuz', 'SNNP', 'Benishagul Gumuz'],
+df = pd.DataFrame({'Local Name': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'Boni', 'Quncho', 'Dagim', 'Felagot'],
                    'Varieties': ['6,866,855.00', '2,861,364.00', '2,703,282.00', '633,525', '1,224,860.00', '53,786.00', '1,224,860.00', '53,786.00'],
                    'Releasing Center': ['2,928,206.26', '1,393,455.62', '1,086,374.60', '188,391.88', '234,350.83', '22,021.32', '234,350.83', '22,021.32'],
                    'Year of Release': ['2,928,206.26', '1,393,455.62', '1,086,374.60', '188,391.88', '234,350.83', '22,021.32', '234,350.83', '22,021.32'],
