@@ -31,7 +31,7 @@ option = st.selectbox(
 #IMAGE
 st.image(
             "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
-            width=1200, 
+            width=870, 
         )
 
 #ADD TABLE
