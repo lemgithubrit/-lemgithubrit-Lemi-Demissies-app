@@ -126,7 +126,8 @@ st.image(
 
 
 
-
+images = ['https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg', 'https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg', 'https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg']
+st.image(images, use_column_width=True, caption="some generic text")
 
 
 
