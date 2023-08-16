@@ -28,6 +28,12 @@ option = st.selectbox(
     '1',
     ('What is teff?','A) Smallest Size Cereal Grain in the World','B) Originated from Ethiopia','C) Ethiopia grew more than 90 percent of the world','D) Gluten Free','E) Highly Nitritious','F) Super Food','G) Replace Wheat Products'))
 
+#IMAGE
+st.image(
+            "https://tefffarms.com/wp-content/uploads/2022/04/selam-foods_what-is-teff_green-bg.jpg",
+            width=800, 
+        )
+
 #ADD TABLE
 import pandas as pd 
 df = pd.DataFrame({'Local Name          ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'Boni', 'Quncho', 'Dagim', 'Felagot'],
@@ -108,14 +114,6 @@ st.sidebar.text_input('Phone No')
 
 color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
 st.sidebar.write('The current color is', color)
-
-st.image(
-            "https://tefffarms.com/wp-content/uploads/2022/04/selam-foods_what-is-teff_green-bg.jpg",
-            width=800, 
-        )
-
-
-
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
 st.write("Phone:-+251921502282") 
 st.write("Email:-   lemidemissieboset@gmail.com") 
