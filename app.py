@@ -61,7 +61,7 @@ def load_data():
             "Area Coverage (1000ha) in 2021/22 MY                                   ": ['2983', '2530', '1960', '1650', '960'],
         }
     )
-st.checkbox("Use container width", value=False, key="use_container_width")
+
 df = load_data()
 df
 
