@@ -1,3 +1,8 @@
+st.image(
+            "https://landportal.org/sites/landportal.org/files/logolast.png",
+            width=1200, 
+        )
+
 import streamlit as st 
 #header
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide")
@@ -118,10 +123,7 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
  
 
-st.image(
-            "https://landportal.org/sites/landportal.org/files/logolast.png",
-            width=1200, 
-        )
+
 
 
 
