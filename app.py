@@ -33,9 +33,9 @@ import pandas as pd
 # Creating the dataframe df
 df = pd.DataFrame({'Teff Yield in 2020/21': ['20CSE29', '20CSE49', '20CSE36', '20CSE44', '20CSE36', '20CSE44'],
                    'No. of small holder farmers': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
-                   'Marks In Percentage': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
-                   'Grade': ['A', 'A', 'C', 'B', 'C', 'B'],
-                   'Subject': ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Physics']})
+                   'Area (ha)': ['Amelia', 'Sam', 'Dean', 'Jessica', 'Dean', 'Jessica'],
+                   'Production (qt)': ['A', 'A', 'C', 'B', 'C', 'B'],
+                   'Yield t/ha': ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Physics']})
   
 # Printing the dataframe
 df
