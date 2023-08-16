@@ -120,7 +120,7 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 st.image(
             "https://landportal.org/sites/landportal.org/files/logolast.png",
-            width=400, 
+            width=1200, 
         )
 
 
