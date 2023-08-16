@@ -119,6 +119,7 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
  
 st.image(
             "https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg",
+            "https://i.ytimg.com/vi/eXQcpu2eCrE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCzcOFcZK_t26Bz3oVIeicMvjrBKQ",
             width=200, 
         )
 
@@ -134,26 +135,8 @@ st.image(
 
 
 
-sunset_imgs = [
-    'https://unsplash.com/photos/-IMlv9Jlb24/download?force=true',
-    'https://unsplash.com/photos/ESEnXckWlLY/download?force=true',
-    'https://unsplash.com/photos/mOcdke2ZQoE/download?force=true',
-    'https://unsplash.com/photos/GPPAjJicemU/download?force=true',
-    'https://unsplash.com/photos/JFeOy62yjXk/download?force=true',
-    'https://unsplash.com/photos/kEgJVDkQkbU/download?force=true',
-    'https://unsplash.com/photos/i9Q9bc-WgfE/download?force=true',
-    'https://unsplash.com/photos/tIL1v1jSoaY/download?force=true',
-    'https://unsplash.com/photos/-G3rw6Y02D0/download?force=true',
-    'https://unsplash.com/photos/xP_AGmeEa6s/download?force=true',
-    'https://unsplash.com/photos/4iTVoGYY7bM/download?force=true',
-    'https://unsplash.com/photos/mBQIfKlvowM/download?force=true',
-    'https://unsplash.com/photos/A-11N8ItHZo/download?force=true',
-    'https://unsplash.com/photos/kOqBCFsGTs8/download?force=true',
-    'https://unsplash.com/photos/8DMuvdp-vso/download?force=true'
-]
-image_iterator = paginator("Select a sunset page", sunset_imgs)
-indices_on_page, images_on_page = map(list, zip(*image_iterator))
-st.image(images_on_page, width=100, caption=indices_on_page)
+
+
 
 
 
