@@ -117,4 +117,7 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
  
-
+st.image(
+            "https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2017/11/04133712/waterfall.jpg",
+            width=400, 
+        )
