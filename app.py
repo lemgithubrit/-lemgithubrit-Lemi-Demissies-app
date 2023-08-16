@@ -1,11 +1,6 @@
 import streamlit as st 
 #header
 st.set_page_config(page_title="Wabepage", page_icon=":tada:", layout="wide")
-
-st.image(
-            "https://landportal.org/sites/landportal.org/files/logolast.png",
-            width=1200, 
-        )
 st.markdown("<h1 style='text-align: center; color: white;'>Ethiopian Super Food</h1>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: white;'>Teff Grain</h1>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: white;'>[ጤፍ]</h1>", unsafe_allow_html=True)
