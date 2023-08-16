@@ -146,17 +146,6 @@ st.image(
 
 
 
-import streamlit as st
-
-captions = list(range(300,1200,500))
-blob_items = [f"https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg]
-
-for blob in blob_items:
-    c1,mid,c2 = st.columns([2,1,3])
-    c1.image(blob)
-    title = c2.text_input('Comments',key=blob+"title")
-    if c2.button('Save Me', key=blob+"save"):
-        c1.write(title)
 
 
 
