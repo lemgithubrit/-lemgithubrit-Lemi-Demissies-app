@@ -109,7 +109,7 @@ st.sidebar.text_input('Phone No')
 
 #IMAGE
 st.image(
-            "https://t4.ftcdn.net/jpg/04/19/67/09/360_F_419670986_RrJnfBrOF8GEOiHVlTAuHcADq5SwOsvf.jpg",
+            "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
             width=1200, 
         )
 
