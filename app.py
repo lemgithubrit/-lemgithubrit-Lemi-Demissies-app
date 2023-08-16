@@ -121,6 +121,7 @@ st.image(
             "https://media-cdn.tripadvisor.com/media/photo-s/0a/60/06/1b/yetsom-beyaynetu-the.jpg",
             width=200, 
         )
+st.write("Injera")
 
 
 
