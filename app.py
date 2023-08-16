@@ -72,7 +72,7 @@ import pandas as pd
 
 data = pd.DataFrame({
     'index': ['Cincinnati', 'San Francisco', 'Pittsburgh'],
-    'sports_teams': [6, 8, 9],
+    'Area Coverage (1000ha) in 2021/22 MY_teams vs Cereal Crop ': [6, 8, 9],
 }).set_index('index')
 
 st.bar_chart(data)
