@@ -181,7 +181,7 @@ with col1:
 with col2:
   
    st.image(
-            "https://static.vecteezy.com/system/resources/previews/017/221/781/non_2x/telegram-logo-transparent-free-png.png",
+            "https://w7.pngwing.com/pngs/284/690/png-transparent-telegram-logo-computer-icons-telegram-logo-blue-angle-triangle-thumbnail.png",
             width=100, 
         )
 
