@@ -100,20 +100,20 @@ with col1:
    
    st.image(
             "https://png.pngtree.com/illustration/20220323/ourmid/pngtree-2-5d-flat-business-office-scene-vector-illustration-image_76264.jpg",
-            width=300, 
+            width=250, 
         )
 with col2:
   
    st.image(
-            "https://img.freepik.com/premium-vector/website-new-innovative-ideas-digital-technologies_126283-2112.jpg",
-            width=300, 
+            "https://media.istockphoto.com/id/1286642964/photo/analyst-working-with-business-analytics-and-data-management-system-on-computer-to-make-report.jpg?b=1&s=612x612&w=0&k=20&c=UTB_9PqD2hNvHXAmaXjXT9Mhzl-jRPmWGhdC4M9kIys=",
+            width=250, 
         )
 
 with col3:
    
    st.image(
             "https://images.prismic.io/impactio-blog/21d9a519-4bfa-4345-8810-50301c8bb84f_Methods+for+Presenting+Statistical+Data+in+an+Easy+to+Read+Way.png?auto=compress,format",
-            width=300, 
+            width=250, 
         )
 
 
