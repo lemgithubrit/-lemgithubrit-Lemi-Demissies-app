@@ -112,7 +112,7 @@ with col2:
 with col3:
    
    st.image(
-            "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
+            "https://images.prismic.io/impactio-blog/21d9a519-4bfa-4345-8810-50301c8bb84f_Methods+for+Presenting+Statistical+Data+in+an+Easy+to+Read+Way.png?auto=compress,format",
             width=250, 
         )
 
