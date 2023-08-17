@@ -121,7 +121,7 @@ st.image(
      )
 st.image(
             "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
-            width=400, 
+            width=850, 
         )
 st.image(
             "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_4.jpg",
@@ -129,19 +129,19 @@ st.image(
         )
 st.image(
             "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_3.jpg",
-            width=400, 
+            width=850, 
         )
 st.image(
             "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
-            width=400, 
+            width=850, 
         )
 st.image(
             "https://i0.wp.com/friekaker.no/wp-content/uploads/2018/11/IMG_0153.jpg?fit=450%2C300&ssl=1",
-            width=400, 
+            width=850, 
         )
 st.image(
             "https://semonegna.com/wp-content/uploads/2019/10/Negus-Brewing-Company-Addis-Teff-Amber.jpg",
-            width=400,  
+            width=850,  
         )
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
 st.write("Phone:-+251921502282") 
