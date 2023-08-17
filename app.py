@@ -131,6 +131,13 @@ st.image(
             "https://i0.wp.com/friekaker.no/wp-content/uploads/2018/11/IMG_0153.jpg?fit=450%2C300&ssl=1",
             width=400, 
         )
+st.image(
+            "st.image(
+            "https://i0.wp.com/friekaker.no/wp-content/uploads/2018/11/IMG_0153.jpg?fit=450%2C300&ssl=1",
+            width=400, 
+        )",
+            width=400, 
+        )
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
 st.write("Phone:-+251921502282") 
 st.write("Email:-   lemidemissieboset@gmail.com") 
