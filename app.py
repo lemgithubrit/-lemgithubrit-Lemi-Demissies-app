@@ -125,7 +125,7 @@ st.image(
         )
 st.image(
             "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_4.jpg",
-            width=400, 
+            width=850, 
         )
 st.image(
             "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_3.jpg",
