@@ -140,7 +140,7 @@ import streamlit as st
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.header("Ieff By Products")
+    
    
    st.image(
             "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_4.jpg",
@@ -167,7 +167,30 @@ st.write("Email:-   lemidemissieboset@gmail.com")
 st.write("Youtube:-https://www.youtube.com/channel/UCfuVnlEHBvqCMb67HecaNbw") 
 st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
 
+import streamlit as st
 
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    
+   
+   st.image(
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAk1BMVEX///8Yd/IAcvLg5/xRivNbkPTk7P0Ab/EAZvFrmfX7/P+wx/kAafGkvPi6z/mvyfoAY/AAbfIMdfL1+P7t8/4AXPAAX/CRtPdek/Ta5fzR3fvr8f3i6/3L3vzC1/u90/p6ovU+hfOJrvZwoPUAUvAge/J6p/Y6ePM8i/QygPNgmvWhwfiuyPqMrPbV4/yArPeiufhFRnHNAAADrElEQVR4nO3bbXOiMBiFYaFWMGKRaFV8QdFi19p2/f+/bnVfZtruUAI0k/N0zv3JL8zkGkKiAp0OY4wxxhhjjDHGGGOMMcYYY4wxxhhjjDHG3qYm6TrbbDZZtk6XY6Vcj+cLU8tstu36o/v76ejadHp/+Rh5eX87O92lvYlo7EW3y6NRlPjae5/WfpBE0Wga6ry/ixcT10Ntkpqs9zqMfO/zLtRo9BC7Hm39xqtTHiYfT11Z4Z3r8dZNpcMirDp7koW9QV45OyULVdYPgjo+acLJME/q+YQJVwev1gQVJ0zn/+1930uY5kEDoCBh77HmEiNNqPxmQDnCH7UXUWHCXVOgFGFs/DVUqHB5bAwUIjw02QglCbOi/lcZUcLxUwugCGFcNJ+jIoTjfcO9Xoxwc2wzSQUIVfPNXogwnbeapAKEcSufAOG45STFF7adpPjCrNZmqP0kCt+H/p+3OpmfQp1Mw3w7Oz3Hb3u+cW34vMmL6WWoo8fZq8CbTaaXofaPA9djbdbC7Jehr38KPH2/2xgC0RfM0lRsMkkFAztqGBkIk2fX42zeeGYgTA5Sr8FLy0P1ZqE98B3v03pP1ddhOBN8Cjur6u1Q64XrUbbp5rby933QX7oeZZtuupXC6Dx2Pco2mQjl7oXXqoXaW7seZKuqhX6euh5kqwyEXcm7oZHwduV6kK0yEX7/c0ghdhRSiB+FFOJHIYX4UUghfhRSiN/3F64MhD3Xg6xssuqVlhn817YoP/zSyv1tGzW47Zc2LyqAnlfMyw+/tHd/V0Odp0FpJs9d+uWHB0E4BxAa3chuWrJz/6KzXWE0c39nyq5wFAOsNFaFYebaZ1moi1fXPstCfw5w38aqMNm63yzsChGWUsvCgful1KpQBwiPMVgVFgCbhVWh3wXYLKwKgz7AZmFVmBzcf++2K4zOAEupTaEOIB4etiksNq511ywK/S7Eo6cWhcEc4pk3m8I9xD+NFoXJC8D3brvX4RBhs7Ao1B7Gq4cWhUeIzcKiEGSzsCgM+hBLqU3hAWIptTlLQV4XsrjSDF3b/qTOD2FpUfUrpPrj6+n/GiUn17a/vZ4GpZ0rXwPW+bDs4BjhB/41VV4nNbqPX3q4gPi+hfxnMSikED8KKcSPQgrxo5BC/CikED8KKcSPQgrxo5BC/CikED8KKcSPQgrxo5BC/CikED8KKcSPQgrxo5BC/CikED8KKcSPQgrxo5BC/CikED8KKcSPQgrxo5BC/CikED8A4S8vfFf6uDkE/wAAAABJRU5ErkJggg==",
+            width=250, 
+        )
+with col2:
+  
+   st.image(
+            "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_3.jpg",
+            width=250, 
+        )
+
+with col3:
+   
+   st.image(
+            "https://pbs.twimg.com/media/EO2jMN0UwAAf3KR.jpg",
+            width=250, 
+        )
 
 
 
