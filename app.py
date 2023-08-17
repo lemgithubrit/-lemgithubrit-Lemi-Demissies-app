@@ -143,7 +143,7 @@ with col2:
 with col3:
    
    st.image(
-                          "https://visme.co/blog/wp-content/uploads/2021/08/Data-Visualization-thumbnail.jpg",
+                          "https://www.segalbenz.com/sites/default/files/SB-blog-5-research-stats_112420-550x300.gif",
             width=300, 
         )
 
