@@ -130,7 +130,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.image(
-            "https://1.bp.blogspot.com/-dza495E3Qpg/X5uyiQCRIjI/AAAAAAAAAeg/uH8JABBMV3YwF934jd91vU_BrR6GucCXACLcBGAsYHQ/s960/OneWayNull.gif",
+            "https://static.wixstatic.com/media/3eee0b_bc230abd081f486f9f767abc7c674157~mv2.gif",
             width=300, 
         )   
 with col2:
