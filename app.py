@@ -176,7 +176,38 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 
+import plotly.express as px
+import pandas as pd
+import streamlit as st
 
+data = {
+    'ctry': ['USA', 'PHI', 'CHN'],
+    'gold': [12, 1, 20,],
+    'silver': [4,4, 12],
+    'bronze': [8, 2, 30],
+    'sum': [24, 7, 62]
+}
+
+df = pd.DataFrame(data)
+st.dataframe(df)
+
+cols = st.columns([1, 1])
+
+with cols[0]:
+    medal_type = st.selectbox('Medal Type', ['gold', 'silver', 'bronze'])
+    
+    fig = px.pie(df, values=medal_type, names='ctry',
+                 title=f'number of {medal_type} medals',
+                 height=300, width=200)
+    fig.update_layout(margin=dict(l=20, r=20, t=30, b=0),)
+    st.plotly_chart(fig, use_container_width=True)
+
+with cols[1]:
+    st.text_input('sunburst', label_visibility='hidden', disabled=True)
+    fig = px.sunburst(df, path=['ctry', 'gold', 'silver', 'bronze'],
+                      values='sum', height=300, width=200)
+    fig.update_layout(margin=dict(l=20, r=20, t=30, b=0),)
+    st.plotly_chart(fig, use_container_width=True)
 
 
 
