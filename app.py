@@ -99,7 +99,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
    
    st.image(
-            "https://i.pinimg.com/originals/52/c0/bf/52c0bf4148d1e5e07bea49d878cd784a.jpg",
+            "https://png.pngtree.com/illustration/20220323/ourmid/pngtree-2-5d-flat-business-office-scene-vector-illustration-image_76264.jpg",
             width=200, 
         )
 with col2:
