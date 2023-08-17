@@ -137,7 +137,7 @@ with col3:
 
 import streamlit as st
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
    
@@ -158,6 +158,13 @@ with col3:
             "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
             width=200, 
         )
+    with col4:
+   
+   st.image(
+            "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
+            width=200, 
+        )
+    
     
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
 st.write("Phone:-+251921502282") 
