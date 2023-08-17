@@ -208,10 +208,7 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 
-st.image(
-            "https://cur.glitter-graphics.net/pub/3633/3633524tsy242noj7.gif",
-            width=1200, 
-        )   
+ 
 
 
 
