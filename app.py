@@ -155,7 +155,7 @@ with col2:
 with col3:
    
    st.image(
-            "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
+            "https://pbs.twimg.com/media/EO2jMN0UwAAf3KR.jpg",
             width=250, 
         )
     
