@@ -208,7 +208,7 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 st.image(
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHXgUAbjscBxRGnRTjjJbdWeynLqzMjRbdCw&usqp=CAU",
+            "https://iconscout.com/lottie/data-analysis-system-4308565",
             width=1200, 
         )   
 
