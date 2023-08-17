@@ -209,7 +209,7 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 st.image(
             "https://i.gifer.com/74pZ.gif",
-            width=1200, 
+            width=300, 
         )   
 
 
