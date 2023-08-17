@@ -206,12 +206,12 @@ st.sidebar.write('The current color is', color)
 st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
 
 
-import streamlit as st
-
-st.sidebar.balloons()
 
 
-
+st.image(
+            "https://cur.glitter-graphics.net/pub/3633/3633524tsy242noj7.gif",
+            width=60, 
+        )   
 
 
 
