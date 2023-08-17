@@ -42,13 +42,6 @@ df = pd.DataFrame({'Local Name          ': ['Bishoftu', 'Bora', 'Boset', 'Kora',
   
 df
 
-st.download_button(
-    label="Download data as CSV",
-    data=csv,
-    file_name='large_df.csv',
-    mime='text/csv',
-)
-
 
 #ADD TABLE
 import pandas as pd 
