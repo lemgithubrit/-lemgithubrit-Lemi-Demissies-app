@@ -131,13 +131,13 @@ col1, col2, col3 = st.columns(3)
 with col1:
    st.image(
             "https://static.wixstatic.com/media/3eee0b_bc230abd081f486f9f767abc7c674157~mv2.gif",
-            width=300, 
+            width=270, 
         )   
 with col2:
   
    st.image(
             "https://b2597391.smushcdn.com/2597391/wp-content/uploads/2022/12/Google_Analytics.gif?lossy=1&strip=1&webp=1",
-            width=250, 
+            width=230, 
         )
 
 with col3:
