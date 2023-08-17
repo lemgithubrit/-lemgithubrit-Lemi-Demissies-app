@@ -197,7 +197,6 @@ with col2:
     st.write("Telegram:-+251921502282")
 with col3:
     st.write("Phone:-+251921502282")
-st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
 st.write("Phone:-+251921502282") 
 st.write("Email:-   lemidemissieboset@gmail.com") 
 st.write("Youtube:-https://www.youtube.com/channel/UCfuVnlEHBvqCMb67HecaNbw") 
