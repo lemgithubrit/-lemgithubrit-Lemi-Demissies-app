@@ -99,7 +99,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
    
    st.image(
-            "https://s3.amazonaws.com/blog.oxfamamerica.org/firstperson/2014/07/ethiopia-farmers-harvest-teff-OUS_27075-1220x763.jpg",
+            "https://i.pinimg.com/originals/52/c0/bf/52c0bf4148d1e5e07bea49d878cd784a.jpg",
             width=250, 
         )
 with col2:
@@ -116,30 +116,7 @@ with col3:
             width=250, 
         )
 
-import streamlit as st
 
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    
-   
-   st.image(
-            "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_4.jpg",
-            width=250, 
-        )
-with col2:
-  
-   st.image(
-            "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_3.jpg",
-            width=250, 
-        )
-
-with col3:
-   
-   st.image(
-            "https://pbs.twimg.com/media/EO2jMN0UwAAf3KR.jpg",
-            width=250, 
-        )
 st.write("")
 st.write("")
 st.write("")
