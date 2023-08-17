@@ -179,7 +179,13 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 
-
+#plotly
+import plotly.express as px
+# This data frame has 244 rows, but 4 unique entries for the `day` variable
+df = px.data.tips()
+fig = px.pie(df, values='tip', names='day')
+# Plot!
+st.plotly_chart(fig, use_container_width=True)
 
 
 
