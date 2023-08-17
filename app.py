@@ -100,13 +100,13 @@ with col1:
    
    st.image(
             "https://png.pngtree.com/illustration/20220323/ourmid/pngtree-2-5d-flat-business-office-scene-vector-illustration-image_76264.jpg",
-            width=200, 
+            width=300, 
         )
 with col2:
   
    st.image(
-            "https://e7.pngegg.com/pngimages/348/235/png-clipart-microsoft-excel-computer-icons-microsoft-template-angle.png",
-            width=250, 
+            "https://img.freepik.com/premium-vector/website-new-innovative-ideas-digital-technologies_126283-2112.jpg",
+            width=300, 
         )
 
 with col3:
