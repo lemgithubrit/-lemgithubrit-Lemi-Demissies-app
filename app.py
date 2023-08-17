@@ -91,25 +91,6 @@ data = pd.DataFrame({
 
 st.line_chart(data)
 
-#sidebar   
-date = st.sidebar.date_input("Date")
-text=st.sidebar.text_area("Write Comment Here")
-st.write(text)
-button1=st.sidebar.button("Submit Text")
-uploaded_files=st.sidebar.file_uploader("Chose a csv file",accept_multiple_files=True)
-for uploaded_file in uploaded_files:
-      bytes_data=uploaded_file.read()
-      st.write("filename:",uploaded_file.name)
-      st.write(bytes_data)
-            
-#add file
-st.write("##")
-st.sidebar.text_input('Full Name')
-st.sidebar.text_input('Email address')
-st.sidebar.text_input('Phone No')
-color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
-st.sidebar.write('The current color is', color)
-
 #IMAGE
 import streamlit as st
 
@@ -201,7 +182,24 @@ with col2:
     st.write("Telegram:-+251921502282")
 with col3:
     st.write("Phone:-+251921502282")
-    
+#sidebar   
+date = st.sidebar.date_input("Date")
+text=st.sidebar.text_area("Write Comment Here")
+st.write(text)
+button1=st.sidebar.button("Submit Text")
+uploaded_files=st.sidebar.file_uploader("Chose a csv file",accept_multiple_files=True)
+for uploaded_file in uploaded_files:
+      bytes_data=uploaded_file.read()
+      st.write("filename:",uploaded_file.name)
+      st.write(bytes_data)
+            
+#add file
+st.write("##")
+st.sidebar.text_input('Full Name')
+st.sidebar.text_input('Email address')
+st.sidebar.text_input('Phone No')
+color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
+st.sidebar.write('The current color is', color)    
 st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
 
 
