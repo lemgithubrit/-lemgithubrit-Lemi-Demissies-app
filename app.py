@@ -114,6 +114,7 @@ st.sidebar.write('The current color is', color)
 st.image(
             "https://s3.amazonaws.com/blog.oxfamamerica.org/firstperson/2014/07/ethiopia-farmers-harvest-teff-OUS_27075-1220x763.jpg",
             width=850, 
+     )
 st.image(
             "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
             width=400, 
