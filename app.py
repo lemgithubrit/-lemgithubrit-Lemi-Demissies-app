@@ -105,7 +105,7 @@ with col1:
 with col2:
   
    st.image(
-            "https://www.saa-safe.org/newsfiles/images/images/unnamed%20%281%29.jpg",
+            "https://e7.pngegg.com/pngimages/348/235/png-clipart-microsoft-excel-computer-icons-microsoft-template-angle.png",
             width=250, 
         )
 
