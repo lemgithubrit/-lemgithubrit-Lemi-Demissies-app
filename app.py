@@ -176,20 +176,20 @@ with col1:
    
    st.image(
             "https://w7.pngwing.com/pngs/561/460/png-transparent-fb-facebook-facebook-logo-social-media-icon.png",
-            width=50, 
+            width=80, 
         )
 with col2:
   
    st.image(
             "https://static.vecteezy.com/system/resources/previews/017/221/781/non_2x/telegram-logo-transparent-free-png.png",
-            width=50, 
+            width=100, 
         )
 
 with col3:
    
    st.image(
             "https://e7.pngegg.com/pngimages/759/922/png-clipart-telephone-logo-iphone-telephone-call-smartphone-phone-electronics-text.png",
-            width=250, 
+            width=80, 
         )
 
 
