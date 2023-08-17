@@ -131,7 +131,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
    st.image(
             "https://static.wixstatic.com/media/3eee0b_bc230abd081f486f9f767abc7c674157~mv2.gif",
-            width=250, 
+            width=270, 
         )   
 with col2:
   
