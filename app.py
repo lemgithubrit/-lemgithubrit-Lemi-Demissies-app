@@ -182,7 +182,7 @@ with col2:
   
    st.image(
             "https://w7.pngwing.com/pngs/284/690/png-transparent-telegram-logo-computer-icons-telegram-logo-blue-angle-triangle-thumbnail.png",
-            width=100, 
+            width=80, 
         )
 
 with col3:
