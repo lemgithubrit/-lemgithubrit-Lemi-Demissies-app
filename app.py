@@ -137,7 +137,7 @@ with col3:
 
 import streamlit as st
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3 = st.columns(3)
 
 with col1:
    
@@ -156,12 +156,6 @@ with col3:
    
    st.image(
             "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
-            width=200, 
-        )
-    with col4:
-   
-   st.image(
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAfCeMc80Ll3f0gELtIl-ElnGhquGTLZl3gw&usqp=CAU",
             width=200, 
         )
     
