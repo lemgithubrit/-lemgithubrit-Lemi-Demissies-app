@@ -159,20 +159,20 @@ with col1:
    
    st.image(
             "https://img.freepik.com/premium-vector/social-media-icon-illustration-facebook-facebook-icon-vector-illustration_561158-2134.jpg?w=2000",
-            width=60, 
+            width=50, 
         )
 with col2:
   
    st.image(
             "https://w7.pngwing.com/pngs/284/690/png-transparent-telegram-logo-computer-icons-telegram-logo-blue-angle-triangle-thumbnail.png",
-            width=60, 
+            width=50, 
         )
 
 with col3:
    
    st.image(
             "https://e7.pngegg.com/pngimages/759/922/png-clipart-telephone-logo-iphone-telephone-call-smartphone-phone-electronics-text.png",
-            width=60, 
+            width=50, 
         )   
 
 import streamlit as st
