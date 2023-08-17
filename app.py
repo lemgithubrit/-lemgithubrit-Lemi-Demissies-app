@@ -131,7 +131,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
    st.image(
             "https://static.wixstatic.com/media/3eee0b_bc230abd081f486f9f767abc7c674157~mv2.gif",
-            width=270, 
+            width=250, 
         )   
 with col2:
   
@@ -144,7 +144,7 @@ with col3:
    
    st.image(
                           "https://www.segalbenz.com/sites/default/files/SB-blog-5-research-stats_112420-550x300.gif",
-            width=230, 
+            width=250, 
         )
 
 
