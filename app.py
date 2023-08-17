@@ -159,7 +159,12 @@ with col3:
             "https://pbs.twimg.com/media/EO2jMN0UwAAf3KR.jpg",
             width=250, 
         )
- 
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
 import streamlit as st
 
 col1, col2, col3 = st.columns(3)
@@ -185,9 +190,6 @@ with col3:
             width=60, 
         )   
 
-    
-st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
-
 import streamlit as st
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -196,6 +198,10 @@ with col2:
     st.write("Telegram:-+251921502282")
 with col3:
     st.write("Phone:-+251921502282")
+    
+st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
+
+
 
 
 
