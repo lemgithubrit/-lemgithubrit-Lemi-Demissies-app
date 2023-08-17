@@ -188,7 +188,7 @@ with col2:
 with col3:
    
    st.image(
-            "https://pbs.twimg.com/media/EO2jMN0UwAAf3KR.jpg",
+            "https://e7.pngegg.com/pngimages/759/922/png-clipart-telephone-logo-iphone-telephone-call-smartphone-phone-electronics-text.png",
             width=250, 
         )
 
