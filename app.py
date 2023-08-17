@@ -140,6 +140,7 @@ import streamlit as st
 col1, col2, col3 = st.columns(3)
 
 with col1:
+    st.header("Ieff By Products")
    
    st.image(
             "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_4.jpg",
@@ -158,7 +159,6 @@ with col3:
             "https://pbs.twimg.com/media/EO2jMN0UwAAf3KR.jpg",
             width=250, 
         )
-    st.header("Ieff By Products")
     
     
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
