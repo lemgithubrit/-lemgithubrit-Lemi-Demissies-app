@@ -144,7 +144,7 @@ with col3:
    
    st.image(
                           "https://www.segalbenz.com/sites/default/files/SB-blog-5-research-stats_112420-550x300.gif",
-            width=250, 
+            width=230, 
         )
 
 
