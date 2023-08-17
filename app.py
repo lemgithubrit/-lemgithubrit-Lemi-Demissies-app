@@ -134,7 +134,7 @@ with col1:
     
    
    st.image(
-            "https://png.pngtree.com/illustration/20220323/ourmid/pngtree-2-5d-flat-business-office-scene-vector-illustration-image_76264.jpg",
+            "https://img.freepik.com/premium-vector/social-media-icon-illustration-facebook-facebook-icon-vector-illustration_561158-2134.jpg?w=2000",
             width=60, 
         )
 with col2:
