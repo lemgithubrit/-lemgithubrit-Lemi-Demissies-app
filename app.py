@@ -160,7 +160,7 @@ with col3:
             width=250, 
         )
  
- import streamlit as st
+import streamlit as st
 
 col1, col2, col3 = st.columns(3)
 
