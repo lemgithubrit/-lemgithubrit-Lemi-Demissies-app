@@ -80,18 +80,6 @@ data = pd.DataFrame({
 st.bar_chart(data)
 
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-
-chart_data = pd.DataFrame(
-    np.random.randn(20, 3),
-    columns=['a', 'b', 'c'])
-
-st.area_chart(chart_data)
-
-
-
 #LineChart
 import streamlit as st
 import pandas as pd
@@ -102,6 +90,37 @@ data = pd.DataFrame({
 }).set_index('index')
 
 st.line_chart(data)
+
+
+
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+chart_data = pd.DataFrame(
+    np.random.randn(20, 3),
+    columns=['a', 'b', 'c'])
+
+st.area_chart(chart_data)
+
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+chart_data = pd.DataFrame(
+    np.random.randn(200, 3),
+    columns=['a', 'b', 'c'])
+
+st.vega_lite_chart(chart_data, {
+    'mark': {'type': 'circle', 'tooltip': True},
+    'encoding': {
+        'x': {'field': 'a', 'type': 'quantitative'},
+        'y': {'field': 'b', 'type': 'quantitative'},
+        'size': {'field': 'c', 'type': 'quantitative'},
+        'color': {'field': 'c', 'type': 'quantitative'},
+    },
+})
+
 
 #IMAGE
 import streamlit as st
