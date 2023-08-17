@@ -184,6 +184,19 @@ with col3:
             "https://e7.pngegg.com/pngimages/759/922/png-clipart-telephone-logo-iphone-telephone-call-smartphone-phone-electronics-text.png",
             width=50, 
         )   
+
+
+
+import streamlit as st
+
+col1, col2, col3 = st.columns(3)
+st.write("Fcebook:-Lem Messa Demissie")
+with col1:
+  st.write("Phone:-+251921502282")
+with col2:
+    st.write("Telegram:-+251921502282")
+with col3:
+    st.write("Phone:-+251921502282")
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
 st.write("Phone:-+251921502282") 
 st.write("Email:-   lemidemissieboset@gmail.com") 
