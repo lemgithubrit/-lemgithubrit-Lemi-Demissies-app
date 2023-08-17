@@ -208,7 +208,10 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 
- 
+   st.image(
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJ2SXEP0TSAwiZBH-A4Qkk0J9aqCnsOc0Hw&usqp=CAU",
+            width=60, 
+        )   
 
 
 
