@@ -100,7 +100,7 @@ with col1:
    
    st.image(
             "https://i.pinimg.com/originals/52/c0/bf/52c0bf4148d1e5e07bea49d878cd784a.jpg",
-            width=250, 
+            width=100, 
         )
 with col2:
   
@@ -113,7 +113,7 @@ with col3:
    
    st.image(
             "https://images.prismic.io/impactio-blog/21d9a519-4bfa-4345-8810-50301c8bb84f_Methods+for+Presenting+Statistical+Data+in+an+Easy+to+Read+Way.png?auto=compress,format",
-            width=250, 
+            width=500, 
         )
 
 
