@@ -136,7 +136,7 @@ with col1:
 with col2:
   
    st.image(
-            "https://a.storyblok.com/f/81332/2500x1223/7e53b53f14/gender-household-domestic-work_animated.gif",
+            "https://i.gifer.com/YGfJ.gif",
             width=250, 
         )
 
