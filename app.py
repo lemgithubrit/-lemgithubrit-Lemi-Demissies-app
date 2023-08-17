@@ -131,20 +131,20 @@ col1, col2, col3 = st.columns(3)
 with col1:
    st.image(
             "https://static.wixstatic.com/media/3eee0b_bc230abd081f486f9f767abc7c674157~mv2.gif",
-            width=300, 
+            width=250, 
         )   
 with col2:
   
    st.image(
             "https://visme.co/blog/wp-content/uploads/2017/03/Radial.gif",
-            width=280, 
+            width=250, 
         )
 
 with col3:
    
    st.image(
                           "https://www.segalbenz.com/sites/default/files/SB-blog-5-research-stats_112420-550x300.gif",
-            width=300, 
+            width=250, 
         )
 
 
