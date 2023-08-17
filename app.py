@@ -169,37 +169,33 @@ with col1:
    
    st.image(
             "https://w7.pngwing.com/pngs/561/460/png-transparent-fb-facebook-facebook-logo-social-media-icon.png",
-            width=50, 
+            width=60, 
         )
 with col2:
   
    st.image(
             "https://w7.pngwing.com/pngs/284/690/png-transparent-telegram-logo-computer-icons-telegram-logo-blue-angle-triangle-thumbnail.png",
-            width=50, 
+            width=60, 
         )
 
 with col3:
    
    st.image(
             "https://e7.pngegg.com/pngimages/759/922/png-clipart-telephone-logo-iphone-telephone-call-smartphone-phone-electronics-text.png",
-            width=50, 
+            width=60, 
         )   
 
 
 
 import streamlit as st
-
 col1, col2, col3 = st.columns(3)
-st.write("Fcebook:-Lem Messa Demissie")
 with col1:
-  st.write("Phone:-+251921502282")
+  st.write("Facebook:-Lem Messa Demissie")
 with col2:
     st.write("Telegram:-+251921502282")
 with col3:
     st.write("Phone:-+251921502282")
-st.write("Phone:-+251921502282") 
-st.write("Email:-   lemidemissieboset@gmail.com") 
-st.write("Youtube:-https://www.youtube.com/channel/UCfuVnlEHBvqCMb67HecaNbw") 
+    
 st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
 
 
