@@ -106,7 +106,7 @@ with col2:
   
    st.image(
             "https://previews.123rf.com/images/ingara/ingara1809/ingara180901228/110171575-big-data-vector-visualization-3d-futuristic-cosmic-design-technology-background-visual.jpg",
-            width=250, 
+            width=270, 
         )
 
 with col3:
