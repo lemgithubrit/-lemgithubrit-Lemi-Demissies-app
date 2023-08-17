@@ -150,27 +150,6 @@ st.write("Youtube:-https://www.youtube.com/channel/UCfuVnlEHBvqCMb67HecaNbw")
 st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 import streamlit as st
@@ -180,13 +159,37 @@ col1, col2, col3 = st.columns(3)
 with col1:
    
    st.image(
-            "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
+            "https://s3.amazonaws.com/blog.oxfamamerica.org/firstperson/2014/07/ethiopia-farmers-harvest-teff-OUS_27075-1220x763.jpg",
             width=200, 
         )
 with col2:
   
    st.image(
-            "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
+            "https://www.saa-safe.org/newsfiles/images/images/unnamed%20%281%29.jpg",
+            width=200, 
+        )
+
+with col3:
+   
+   st.image(
+            "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
+            width=200, 
+        )
+
+import streamlit as st
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   
+   st.image(
+            "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_4.jpg",
+            width=200, 
+        )
+with col2:
+  
+   st.image(
+            "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_3.jpg",
             width=200, 
         )
 
@@ -196,8 +199,6 @@ with col3:
             "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
             width=200, 
         )
-
-
 
 
 
