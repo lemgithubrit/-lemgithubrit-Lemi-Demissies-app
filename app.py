@@ -107,15 +107,15 @@ st.write("##")
 st.sidebar.text_input('Full Name')
 st.sidebar.text_input('Email address')
 st.sidebar.text_input('Phone No')
+color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
+st.sidebar.write('The current color is', color)
 
 #IMAGE
 st.image(
             "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
-            width=850, 
+            width=100, 
         )
 
-color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
-st.sidebar.write('The current color is', color)
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
 st.write("Phone:-+251921502282") 
 st.write("Email:-   lemidemissieboset@gmail.com") 
