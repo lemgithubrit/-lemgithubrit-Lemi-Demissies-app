@@ -136,7 +136,7 @@ with col1:
 with col2:
   
    st.image(
-            "https://i.gifer.com/YGfJ.gif",
+            "https://b2597391.smushcdn.com/2597391/wp-content/uploads/2022/12/Google_Analytics.gif?lossy=1&strip=1&webp=1",
             width=250, 
         )
 
