@@ -205,7 +205,7 @@ with col2:
 with col3:
     st.write("Phone:-+251921502282")
     
-st.write("<h1 style='text-align: left; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
+st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest Way to Build and Share Data Apps🎈</h1>", unsafe_allow_html=True)
 
 
 
