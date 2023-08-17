@@ -210,12 +210,6 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 
-import streamlit as st
-
-picture = st.camera_input("Take a picture")
-
-if picture:
-    st.image(picture)
 
 
 
