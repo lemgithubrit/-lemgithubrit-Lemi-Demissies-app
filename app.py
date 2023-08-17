@@ -111,38 +111,54 @@ color = st.sidebar.color_picker('Pick Your Favorable Color', '#00f900')
 st.sidebar.write('The current color is', color)
 
 #IMAGE
-st.image(
+import streamlit as st
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   
+   st.image(
             "https://s3.amazonaws.com/blog.oxfamamerica.org/firstperson/2014/07/ethiopia-farmers-harvest-teff-OUS_27075-1220x763.jpg",
             width=200, 
-     )
-st.image(
+        )
+with col2:
+  
+   st.image(
             "https://www.saa-safe.org/newsfiles/images/images/unnamed%20%281%29.jpg",
             width=200, 
-     )
-st.image(
+        )
+
+with col3:
+   
+   st.image(
             "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
             width=200, 
         )
-st.image(
+
+import streamlit as st
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   
+   st.image(
             "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_4.jpg",
             width=200, 
         )
-st.image(
+with col2:
+  
+   st.image(
             "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_3.jpg",
             width=200, 
         )
-st.image(
+
+with col3:
+   
+   st.image(
             "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
             width=200, 
         )
-st.image(
-            "https://i0.wp.com/friekaker.no/wp-content/uploads/2018/11/IMG_0153.jpg?fit=450%2C300&ssl=1",
-            width=200, 
-        )
-st.image(
-            "https://semonegna.com/wp-content/uploads/2019/10/Negus-Brewing-Company-Addis-Teff-Amber.jpg",
-            width=200,  
-        )
+    
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
 st.write("Phone:-+251921502282") 
 st.write("Email:-   lemidemissieboset@gmail.com") 
@@ -152,53 +168,7 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 
-import streamlit as st
 
-col1, col2, col3 = st.columns(3)
-
-with col1:
-   
-   st.image(
-            "https://s3.amazonaws.com/blog.oxfamamerica.org/firstperson/2014/07/ethiopia-farmers-harvest-teff-OUS_27075-1220x763.jpg",
-            width=200, 
-        )
-with col2:
-  
-   st.image(
-            "https://www.saa-safe.org/newsfiles/images/images/unnamed%20%281%29.jpg",
-            width=200, 
-        )
-
-with col3:
-   
-   st.image(
-            "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
-            width=200, 
-        )
-
-import streamlit as st
-
-col1, col2, col3 = st.columns(3)
-
-with col1:
-   
-   st.image(
-            "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_4.jpg",
-            width=200, 
-        )
-with col2:
-  
-   st.image(
-            "https://agtfoods.co.za/wp-content/uploads/2018/06/White-Teff-Flour_600x600_3.jpg",
-            width=200, 
-        )
-
-with col3:
-   
-   st.image(
-            "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
-            width=200, 
-        )
 
 
 
