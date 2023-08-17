@@ -173,7 +173,29 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 
 
 
+import streamlit as st
 
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   
+   st.image(
+            "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
+            width=200, 
+        )
+with col2:
+  
+   st.image(
+            "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
+            width=200, 
+        )
+
+with col3:
+   
+   st.image(
+            "https://www.greenqueen.com.hk/wp-content/uploads/2019/09/Ethiopian-food-.jpg",
+            width=200, 
+        )
 
 
 
