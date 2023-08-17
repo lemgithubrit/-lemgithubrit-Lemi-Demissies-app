@@ -113,7 +113,7 @@ st.sidebar.write('The current color is', color)
 #IMAGE
 st.image(
             "https://vinmec-prod.s3.amazonaws.com/images/20210307_112944_143714_hat-teff.max-1800x1800.jpg",
-            width=100, 
+            width=400, 
         )
 
 st.write("Developer Lemi Demissie PhD student @ Adama Science and Technology University") 
