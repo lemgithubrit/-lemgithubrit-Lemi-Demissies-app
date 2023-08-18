@@ -42,7 +42,7 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
   
 df
 
-st.dataframe(ldf.style.background_gradient(cmap=cmap,vmin=(-0.015),vmax=0.015,axis=None).format('{:.2%}'))
+st.dataframe(df.style.background_gradient(max=0.015,axis=None).format('{:.2%}'))
 
 #ADD TABLE
 import pandas as pd 
