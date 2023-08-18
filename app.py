@@ -137,14 +137,14 @@ with col1:
 with col2:
   
    st.image(
-                            "https://b2597391.smushcdn.com/2597391/wp-content/uploads/2022/12/Google_Analytics.gif?lossy=1&strip=1&webp=1",
+                            "      https://b2597391.smushcdn.com/2597391/wp-content/uploads/2022/12/Google_Analytics.gif?lossy=1&strip=1&webp=1",
             width=240, 
         )
 
 with col3:
    
    st.image(
-            "https://www.segalbenz.com/sites/default/files/SB-blog-5-research-stats_112420-550x300.gif",
+                   "https://www.segalbenz.com/sites/default/files/SB-blog-5-research-stats_112420-550x300.gif",
             width=240, 
         )   
 
