@@ -42,8 +42,6 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
   
 df
 
-st.dataframe(df.style.background_gradient(max=0.015,axis=None).format('{:.2%}'))
-
 #ADD TABLE
 import pandas as pd 
 df = pd.DataFrame({'Teff Yield in 2020/21             ': ['National', 'Oromia', 'Amhara', 'Tigay', 'SNNP', 'Benishagul Gumuz'],
