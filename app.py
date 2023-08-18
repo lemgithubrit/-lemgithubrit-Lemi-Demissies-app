@@ -42,22 +42,12 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
   
 df
 
-import pandas as pd
-import numpy as np
-import streamlit as st
 
 
-df = pd.DataFrame(np.random.randn(5, 4), columns=list("ABCD"))
-
-df_styled = df.style.format(formatter="{:.1f}", na_rep=".").bar(cmap="viridis")
-
-st.header("Styling is lost with st.dataframe")
-st.write("Code: st.dataframe(data=df_styled)")
-st.dataframe(data=df_styled)
-
-st.header("Styling is there with st.table")
-st.write("Code: st.table(data=df_styled)")
 st.table(data=df_styled)
+
+
+
 #ADD TABLE
 import pandas as pd 
 df = pd.DataFrame({'Teff Yield in 2020/21             ': ['National', 'Oromia', 'Amhara', 'Tigay', 'SNNP', 'Benishagul Gumuz'],
