@@ -42,7 +42,7 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
   
 df
 
-
+st.dataframe(df.style.highlight_max(axis=0))
 #ADD TABLE
 import pandas as pd 
 df = pd.DataFrame({'Teff Yield in 2020/21             ': ['National', 'Oromia', 'Amhara', 'Tigay', 'SNNP', 'Benishagul Gumuz'],
