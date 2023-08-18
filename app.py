@@ -42,11 +42,6 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
   
 df
 
-st.dataframe(df.style.apply(highlight_Local Name, axis=1))
-
-
-
-
 
 #ADD TABLE
 import pandas as pd 
