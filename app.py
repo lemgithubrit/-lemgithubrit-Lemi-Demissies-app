@@ -42,6 +42,9 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
   
 df
 
+st.dataframe(df.style.highlight_max(axis=0))
+
+
 
 #ADD TABLE
 import pandas as pd 
