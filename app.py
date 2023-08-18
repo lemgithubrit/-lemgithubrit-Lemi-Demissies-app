@@ -42,6 +42,16 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
   
 df
 
+st.markdown("""
+<style>
+table {background-color: #f0f0f0;}
+</style>
+""", unsafe_allow_html=True)
+st.dataframe(df)
+
+
+
+
 
 #ADD TABLE
 import pandas as pd 
