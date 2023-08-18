@@ -60,8 +60,8 @@ import streamlit as st
 def load_data():
     return pd.DataFrame(
         {
-            "Cereal Crop                                                                                               ": ['Teff', 'Corn', 'Wheat', 'Sorghum', 'Barley'],
-            "Area Coverage (1000ha) in 2021/22 MY                                                                         ": ['2983', '2530', '1960', '1650', '960'],
+            "Cereal Crop                                                                                                  ": ['Teff', 'Corn', 'Wheat', 'Sorghum', 'Barley'],
+            "Area Coverage (1000ha) in 2021/22 MY                                                                          ": ['2983', '2530', '1960', '1650', '960'],
         }
     )
 
