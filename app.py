@@ -44,10 +44,6 @@ df
 
 
 
-st.dataframe(df_styled)
-
-
-
 #ADD TABLE
 import pandas as pd 
 df = pd.DataFrame({'Teff Yield in 2020/21             ': ['National', 'Oromia', 'Amhara', 'Tigay', 'SNNP', 'Benishagul Gumuz'],
