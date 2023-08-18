@@ -54,6 +54,21 @@ df = pd.DataFrame({'Teff Yield in 2020/21             ': ['National', 'Oromia', 
 df
 
 
+cm = sns.light_palette("green", as_cmap=True)
+
+(df.style
+  .background_gradient(cmap=cm, subset=['Teff Yield in 2020/21','No. of small holder farmers'])
+  .highlight_max(subset=['Teff Yield in 2020/21','No. of small holder farmers'])
+  .set_caption('This is a custom caption.')
+  .format({'No. of small holder farmers': "{:.2%}"})
+  .set_table_styles(styles))
+
+
+
+
+
+
+
 #ADD TABLE
 import pandas as pd
 import streamlit as st
