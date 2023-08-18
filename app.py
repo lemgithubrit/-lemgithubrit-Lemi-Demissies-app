@@ -53,7 +53,7 @@ df = pd.DataFrame({'Teff Yield in 2020/21             ': ['National', 'Oromia', 
   
 df
 
-st.dataframe(df.style.highlight_df(axis=0))
+
 #ADD TABLE
 import pandas as pd
 import streamlit as st
