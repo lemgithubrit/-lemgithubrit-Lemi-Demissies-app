@@ -44,7 +44,7 @@ df
 
 st.markdown("""
 <style>
-table {background-color: #f0f0f0;}
+table {background-color: #BFD80C;}
 </style>
 """, unsafe_allow_html=True)
 st.dataframe(df)
