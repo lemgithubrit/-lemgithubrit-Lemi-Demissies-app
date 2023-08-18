@@ -132,7 +132,7 @@ with col1:
      
    st.image(
             "https://static.wixstatic.com/media/3eee0b_bc230abd081f486f9f767abc7c674157~mv2.gif",
-            width=260, 
+            width=280, 
         )
 with col2:
   
