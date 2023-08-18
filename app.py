@@ -44,7 +44,7 @@ df
 
 
 
-st.table(data=df_styled)
+st.dataframe(df_styled)
 
 
 
