@@ -126,19 +126,16 @@ st.vega_lite_chart(chart_data, {
 #IMAGE
 import streamlit as st
 
-import streamlit as st
-col1, col2, col3 = st.columns(3)
-with col1:
 st.image(
             "https://static.wixstatic.com/media/3eee0b_bc230abd081f486f9f767abc7c674157~mv2.gif",
             width=260, 
         )   
-with col2:  
+ 
 st.image(
             "https://b2597391.smushcdn.com/2597391/wp-content/uploads/2022/12/Google_Analytics.gif?lossy=1&strip=1&webp=1",
             width=260, 
         )
-with col3: 
+
 st.image(
                           "https://www.segalbenz.com/sites/default/files/SB-blog-5-research-stats_112420-550x300.gif",
             width=260, 
