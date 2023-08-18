@@ -43,7 +43,7 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
 df
 
 
-st.dataframe(df.style.highlight_max(axis=1))
+st.dataframe(df.style.highlight_max(axis=00))
 
 
 
