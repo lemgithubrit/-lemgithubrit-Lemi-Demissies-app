@@ -211,17 +211,17 @@ st.write("<h1 style='text-align: center; color:white;'> Streamlit is the Fastest
 import streamlit as st
 st.image(
             "https://static.wixstatic.com/media/3eee0b_bc230abd081f486f9f767abc7c674157~mv2.gif",
-            width=1000, 
+            width=800, 
         )   
   
 st.image(
             "https://b2597391.smushcdn.com/2597391/wp-content/uploads/2022/12/Google_Analytics.gif?lossy=1&strip=1&webp=1",
-            width=1000, 
+            width=800, 
         )
    
 st.image(
                           "https://www.segalbenz.com/sites/default/files/SB-blog-5-research-stats_112420-550x300.gif",
-            width=1000, 
+            width=800, 
         )
 
 
