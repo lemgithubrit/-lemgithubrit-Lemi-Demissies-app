@@ -42,8 +42,7 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
   
 df
 
-df = pd.DataFrame(
-   columns=('col %d' % i for i in green(20)))
+
 st.dataframe(df.style.highlight_max(axis=0))
 
 
