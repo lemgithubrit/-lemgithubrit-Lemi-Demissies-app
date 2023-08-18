@@ -53,6 +53,27 @@ df = pd.DataFrame({'Teff Yield in 2020/21             ': ['National', 'Oromia', 
   
 df
 
+
+
+print("Original DataFrame:\n")
+print(df)
+print("\nModified Stlying DataFrame:")
+df.style.set_properties(**{'background-color': 'black',
+                           'color': 'green'})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #ADD TABLE
 import pandas as pd
 import streamlit as st
