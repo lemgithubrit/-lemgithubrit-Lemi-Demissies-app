@@ -42,9 +42,6 @@ df = pd.DataFrame({'Local Name       ': ['Bishoftu', 'Bora', 'Boset', 'Kora', 'B
   
 df
 
-cmap = plt.cm.get_cmap('RdYlGn')
-ldf.style.background_gradient(cmap=cmap,vmin=(-0.015),vmax=0.015,axis=None).format('{:.2%}')
-
 st.dataframe(ldf.style.background_gradient(cmap=cmap,vmin=(-0.015),vmax=0.015,axis=None).format('{:.2%}'))
 
 #ADD TABLE
