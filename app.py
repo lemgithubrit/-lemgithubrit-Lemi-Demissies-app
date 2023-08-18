@@ -174,11 +174,11 @@ with col3:
 import streamlit as st
 col1, col2, col3 = st.columns(3)
 with col1:
-  st.write("Facebook:-Lem Messa Demissie")
+  st.header("Facebook:-Lem Messa Demissie")
 with col2:
-    st.write("Telegram:-+251921502282")
+    st.header("Telegram:-+251921502282")
 with col3:
-    st.write("Phone:-+251921502282")
+    st.header("Phone:-+251921502282")
 #sidebar   
 date = st.sidebar.date_input("Date")
 text=st.sidebar.text_area("Write Comment Here")
