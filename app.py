@@ -46,7 +46,7 @@ df
 #ADD TABLE
 import pandas as pd 
 df = pd.DataFrame({'Teff Yield in 2020/21                ': ['National', 'Oromia', 'Amhara', 'Tigay', 'SNNP', 'Benishagul Gumuz'],
-                   'No. of small holder farmers              ': [6866855, 2861364, 2703282, 633525, 1224860, 53786],
+                   'No. of small holder farmers      ': [6866855, 2861364, 2703282, 633525, 1224860, 53786],
                    'Area (ha)                              ': [2928206.26, 1393455.62, 1086374.60, 188391.88, 234350.83, 22021.32],
                    'Production (qt)                            ': [55099615.14, 26904670.12, 20964629.06, 3117538.77, 3744279.61, 334445.20],
                    'Yield t/ha                               ': ['1.88', '1.93', '1.93', '1.66', '1.60', '1.60']})
